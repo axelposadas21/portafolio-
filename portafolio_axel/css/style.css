@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+:root{
+	--color-general: #6f808a;
+	--color-morado: #6044df;
+	--color-header: #6044df;
+	--color-negro: #1d2124;
+	--color-hover: #705cf4;
+	--color-input: #eff4fa;
+	--color-letra-input: #1d2124;
+	--fondo-azul:#f5f9ff;
+}
+
+@font-face{
+	font-family: "Protest Revolution";
+	src:url("../fonts/ProtestRevolution-Regular.ttf") format("TrueType");
+}
+
+body {
+    font-family: "Poppins", sans-serif; /*aqui para que salga protest deberiamos ponerlo como "Protest Revolution", 
+	pero no lo puse para seguir la guia vidual de la pagina orginal...lo dejo para saber como hacerlo despues!*/
+    font-size: 16px;
+    color: var(--color-general);
+	line-height: 1.7;
+}
+
+h2,h3,h4,h5,h6{
+	color: var(--color-negro);
+}
+
+header{
+	background-color: #0F0E0E;
+	padding: 20px 0;
+}
+
+#hero{
+	background-image: url("../img/fondofinal2_Mesa de trabajo 1.png");
+	background-position: top center;
+	background-size: cover;
+	color:#FFFFFF;
+	padding: 80px 0 20%;
+}
+
+#hero h1{
+	font-weight: 700;
+	font-size: 45px;
+	text-align: center;
+}
+
+#hero p{
+	font-size: 30px;
+	font-weight: 400;
+	margin: 20px;
+	text-align: center;
+	
+}
+
+#hero .btn-dark{
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+#hero .btn-dark:hover{
+	background-color: #705cf4;
+	border-color: #705cf4;
+}
+
+
+.section{
+	padding: 5% 0;
+}
+
+.titulos{
+	font-weight: 700;
+	font-size: 50px;
+	color: var(--color-negro);
+}
+
+.subtitulos{
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center;
+	margin-top: 25px;
+	
+}
+.ps-5{
+	padding-left: 60px !important;
+}
+#solution p{
+	font-size: 14px;
+}
+
+
+.btn-nav{
+	border: 2px solid #FFFFFF;
+	padding: 15px 30px !important;
+	border-radius: 10px;
+	
+}
+
+.btn-nav:hover{
+	background-color: var(--color-hover);
+	
+}
+
+#hero-tile{
+	background-image: url("../img/bg-home.png");
+	background-size: cover;
+	background-position: top center;
+	padding: 10% 0;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#hero-tile h1{
+	font-size: 55px;
+	font-weight: 700;
+}
+
+.icon-contacto{
+	font-size: 70px;
+	background-color: #FFFFFF;
+	color: var(--color-morado);
+	box-shadow: 0px 0px 20px 7px #ddd;
+	border-radius: 100%;
+	width: 130px;
+	height: 130px;
+	text-align: center;
+	line-height: 130px;
+	
+}
+
+#contacto h3{
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+.forms{
+	box-shadow: 0px 0px 30px 5px #ddd;
+	border-radius: 10px;
+	padding: 40px 25px;
+}
+
+.form-control{
+	background-color: var(--color-input);
+	border: none;
+	padding: 20px 20px;
+}
+
+.form-control::placeholder{
+	color: var(--color-letra-input);
+}
+
+#portafolio h1{
+	text-align: center
+}
+
+#proyectos h4{
+text-align: center;
+padding: 50px 10px;
+}
+
+#proyectos p{
+	text-align: center;
+	font-size: 20px;
+}
+#contact h1{
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#contact{
+	padding: 50px 10px;
+}
+
+footer{
+	background-color: #000000;
+	padding: 5% 0;
+	color: #FFFFFF;
+}
+
+footer h5{
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+
+footer a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: #ccc;
+}
+
+footer ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+footer li{
+	margin-bottom: 10px;
+}
+
+
+#client{
+	background-color:#CBCBCB;
+}
+
+.testimonial{
+	background-color: #FFFFFF;
+	padding: 20px 35px;
+	transition: all 0.4s ease-in-out
+}
+
+.testimonial img{
+	width: 100px !important;
+	border-radius: 100%;
+	margin: auto;
+	margin-top: -80px;
+	margin-bottom: 30px;
+}
+
+.testimonial h4{
+	text-align: center;
+	font-size: 18px;
+}
+
+#client .owl-stage-outer{
+ padding-top: 80px;
+}
+
+.testimonial:hover{
+	transform: translateY(-20px);
+	transition: all 0.3s ease-in-out;	
+}
